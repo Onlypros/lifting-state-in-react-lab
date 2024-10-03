@@ -38,13 +38,13 @@ const App = () => {
   }
 
   return (
-    <main>
-      <h1>Burger Stacker</h1>
-      <section>
-      <IngredientList ingredients={ingredients} handleAddIngredient={handleAddIngredient} />  
-      <BurgerStack stack={stack} handleRemoveIngredient={handleRemoveIngredient} />
-      </section>
-    </main>
+          <main>
+            <h1>Burger Stacker</h1>
+            <section>
+            <IngredientList ingredients={ingredients} handleAddIngredient={handleAddIngredient} />  
+            <BurgerStack stack={stack} handleRemoveIngredient={handleRemoveIngredient} />
+            </section>
+          </main>
   );
 };
 
